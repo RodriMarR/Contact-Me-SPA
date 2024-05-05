@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    font-family: "Roboto", open sans-serif;
+  }
+  .master {
+    display: flex;
+  }
+  .principal {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    flex-basis: 300px;
+    min-height: 100vh;
+    border-right: #e8ebe4 2px;
+    border-right-style: solid;
+  }
+  .bajada {
+    display: flex;
+    width: 300px;
+    height: 55px;
+    justify-content: space-between;
+    border-bottom: #e8ebe4 2.5px;
+    border-bottom-style: solid;
+  }
+  .usuarios {
+    display: flex;
+    height: 55px;
+    align-items: center;
+    flex: 0 0 50px;
+    padding-left: 10px;
+  }
+  .usuario-princ {
+    width: 50px;
+    padding-left: 20px;
+  }
+  .usuario-princ img {
+    width: 35px;
+    border-radius: 100%;
+    border-style: hidden;
+  }
+  .usuarioprinc {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 50px;
+    padding-left: 20px;
+  }
+  .usuarioprinc h6 {
+    margin: 0;
+    padding-top: 5px;
+    color: #000000;
+  }
+  .usuarioprinc p {
+    font-size: 10px;
+    width: 80px;
+    margin: 0;
+    color: #828485;
+  }
+  .usuario1 {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .fa-message {
+    padding-right: 10px;
+  }
+  .fa-bars {
+    padding-left: 10px;
+  }
+  .boton {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+    border-bottom: #e8ebe4 2px;
+    border-bottom-style: solid;
+    align-items: center;
+  }
+  .btn {
+    background-color: #a491d2;
+    color: white;
+  }
+  .boton button:hover {
+    color: white;
+  }
+  .bajada1 {
+    display: flex;
+    width: 300px;
+    height: 70px;
+    justify-content: flex-start;
+    border-bottom: #e8ebe4 2.5px;
+    border-bottom-style: solid;
+  }
+  .contacto {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    flex: 0 0 300px;
+    padding-left: 10px;
+  }
+  .contacto1 {
+    width: 50px;
+    padding-left: 20px;
+  }
+  .contacto1 img {
+    width: 50px;
+    border-radius: 100%;
+    border-style: hidden;
+  }
+  .contacto2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 50px;
+    padding-left: 30px;
+  }
+  .contacto2 h6 {
+    margin: 0;
+    padding-top: 5px;
+    color: #000000;
+  }
+  .contacto2 p {
+    font-size: small;
+    width: 130px;
+    margin: 0;
+    color: #444749;
+  }
+  .bajada2 {
+    display: flex;
+    width: 300px;
+    height: 60px;
+    justify-content: flex-start;
+  }
+  .contacto3 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 50px;
+    padding-left: 30px;
+  }
+  .contacto3 h6 {
+    margin: 0;
+    padding-top: 5px;
+    color: #000000;
+  }
+  .contacto3 p {
+    font-size: small;
+    width: 130px;
+    margin: 0;
+    color: #444749;
+  }
+  .esencial {
+    display: flex;
+    background-color: #f0eef6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 80.2vw;
+  }
+  .bajada3 {
+    display: flex;
+    justify-content: center;
+  }
+  .bajada3 img {
+    width: 45%;
+  }
+  .bajada4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    width: 480px;
+  }
